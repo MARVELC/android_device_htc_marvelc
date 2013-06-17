@@ -1,4 +1,4 @@
-Device configuration for the HTC Marvel
+Device configuration for the HTC Marvelc
 
 Copyright (C) 2011 The CyanogenMod Project
 Copyright (C) 2011 Andreas Schneider <asn@cryptomilk.org>
@@ -11,37 +11,6 @@ Copyright (C) 2011 Andreas Schneider <asn@cryptomilk.org>
 
 ------------------------------------------------------------------
 
-Description : cm-10.1 device tree for marvelc
-
-  - Create .repo/local_manifest.xml with the following content:
-
-  <?xml version="1.0" encoding="UTF-8"?>
-  <manifest>
-      <remote  name="cryptomilk"
-               fetch="git://git.cryptomilk.org/" />
-
-      <project name="projects/marvel/kernel_htc_msm7227.git" path="kernel/htc/msm7227" remote="cryptomilk" />
-      <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" revision="refs/heads/gingerbread" />
-      <project name="projects/marvel/android_device_htc_msm7x27-recovery.git" path="device/htc/msm7x27-recovery" remote="cryptomilk" />
-      <project name="projects/marvel/android_device_htc_msm7x27-common.git" path="device/htc/msm7x27-common" remote="cryptomilk" />
-      <project name="projects/marvel/android_device_htc_marvel-common.git" path="device/htc/marvel-common" remote="cryptomilk" />
-      <project name="projects/marvel/android_device_htc_marvelc.git" path="device/htc/marvelc" remote="cryptomilk" />
-      <project name="projects/marvel/android_vendor_qcom_msm7x27.git" path="vendor/qcom/msm7x27" remote="cryptomilk" />
-      <project name="projects/marvel/android_vendor_htc_marvelc.git" path="vendor/htc/marvelc" remote="cryptomilk" />
-  </manifest>
-
-  $ repo sync
-
-
-  - Setup vendor
-
-  $ ./vendor/cm/get-prebuilts
-
-
-  - Setup environment
-
-  $ source build/envsetup.sh
-  $ lunch cm_marvelc-eng
 
 
 
