@@ -13,4 +13,18 @@ Copyright (C) 2011 Andreas Schneider <asn@cryptomilk.org>
 
 
 
+  <?xml version="1.0" encoding="UTF-8"?>
+  <manifest>
+
+      <project name="MARVELC/OWL-Predator-KERNEL" path="kernel/htc/msm7227" remote="github" revision="master" />
+      <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" remote="github" revision="refs/heads/gingerbread" />
+      <project name="MARVELC/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" remote="github" revision="master" />
+      <project name="MARVELC/android_device_htc_marvelc-common" path="device/htc/marvel-common" remote="github" revision="cm-10.1" />
+      <project name="MARVELC/android_device_htc_marvelc" path="device/htc/marvelc" remote="github" revision="cm-10.1" />
+      <project name="MARVELC/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" remote="github" revision="master" />
+      <project name="MARVELC/android_vendor_htc_marvelc" path="vendor/htc/marvelc" remote="github" revision="cm-10.1" />
+  </manifest>
+
+
+
 
